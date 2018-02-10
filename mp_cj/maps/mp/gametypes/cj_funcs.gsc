@@ -7,7 +7,7 @@ spawn() {
 	self thread saveload();
 }
 
-saveload() {
+saveload() {//based off of the saveload system by Drofder, but heavily modified.
 	self endon("death");
 	self endon("killed_player");
 	self endon("joined_spectators");
